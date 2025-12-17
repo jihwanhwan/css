@@ -1,1 +1,19 @@
 @charset "utf-8";
+
+#main{
+    width: 200px;
+    background-color: lightgray;
+}
+
+#main > h2{
+    color: gold;
+}
+
+
+h2:hover ~ div h2{
+    color: aqua;
+}
+
+#main > div > div:hover span:last-child {
+    background-color: red;
+}
