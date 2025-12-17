@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#div1, #div2, #div3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#div1:hover{
+    background-color: green;
+    width: 400px;
+    transition: 0.3s;
+}
+
+#div2 div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+#div2:hover div{
+    background-color: darkkhaki;
+    width: 150px;
+    height: 150px;
+}
+#div3:hover + #div4 {
+    background-color: tomato;
+    width: 150px;
+    height: 150px;
+}
