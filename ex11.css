@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+#div1{
+    width: 100px;
+    height: 100px;
+    /* background-color: gray; */
+    color: wheat;
+    font-size: 20px;
+
+    text-shadow: 5px 5px 10px #000;
+    box-shadow: 5px 5px 10px red;
+    cursor: pointer;
+}
+#div1:active{
+    color: blue;
+    background-color: aqua;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    &:hover{
+            box-shadow: 0px 0px 10px #000;
+            transition: all 0.3s;
+    }
+}
+
+#login{
+    width: 360px;
+    height: 230px;
+    box-shadow: 0 0 8px lightgray;
+    border-radius: 10px;
+}
+
+.title {
+    /* background-color: blanchedalmond; */
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 26px;
+    border-bottom: 3px dotted olive;
+    width: 220px;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: darkslategrey;
+}
+
+#login form{
+    /* background-color: aquamarine; */
+    /* text-align: center; */
+    width: 270px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+
+#login form input {
+    color: gray;
+    font-size: 20px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid coral;
+    letter-spacing: 3px;
+    width: 100%;
+    &:focus{
+        border-bottom: 2px solid darkmagenta;
+    }
+}
+
+form button{
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    &:hover{
+        background-color: #fff;
+        color: #000;
+        transition: 0.5s;
+        box-shadow: 0 0 2px #000;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
